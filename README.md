@@ -1,16 +1,16 @@
 # web
 
-[![Build Status](https://github.com/distbuild/web/workflows/CI/badge.svg?branch=main&event=push)](https://github.com/distbuild/web/actions?query=workflow%3ACI)
-[![codecov](https://codecov.io/gh/distbuild/web/branch/main/graph/badge.svg?token=FS77A6KD37)](https://codecov.io/gh/distbuild/web)
-[![License](https://img.shields.io/github/license/distbuild/web.svg)](https://github.com/distbuild/web/blob/main/LICENSE)
-[![Tag](https://img.shields.io/github/tag/distbuild/web.svg)](https://github.com/distbuild/web/tags)
-[![Gitter chat](https://badges.gitter.im/craftslab/distbuild.png)](https://gitter.im/craftslab/distbuild)
+[![Build Status](https://github.com/pipego/web/workflows/ci/badge.svg?branch=main&event=push)](https://github.com/pipego/web/actions?query=workflow%3Aci)
+[![codecov](https://codecov.io/gh/pipego/web/branch/main/graph/badge.svg?token=FS77A6KD37)](https://codecov.io/gh/pipego/web)
+[![License](https://img.shields.io/github/license/pipego/web.svg)](https://github.com/pipego/web/blob/main/LICENSE)
+[![Tag](https://img.shields.io/github/tag/pipego/web.svg)](https://github.com/pipego/web/tags)
+[![Gitter chat](https://badges.gitter.im/craftslab/pipego.png)](https://gitter.im/craftslab/pipego)
 
 
 
 ## Introduction
 
-*web* is the web of [distbuild](https://github.com/distbuild) written in Vue.
+*web* is the web of [pipego](https://github.com/pipego) written in Vue.
 
 
 
@@ -23,9 +23,6 @@
 ## Run
 
 ```bash
-git clone https://github.com/distbuild/web.git
-
-cd web
 yarn && yarn run build
 yarn run dev
 ```
@@ -35,12 +32,9 @@ yarn run dev
 ## Docker
 
 ```bash
-git clone https://github.com/distbuild/web.git
-
-cd web
 yarn && yarn run build
-docker build --no-cache -f Dockerfile -t ghcr.io/distbuild/web:latest .
-docker run ghcr.io/distbuild/web:latest
+docker build --no-cache -f Dockerfile -t ghcr.io/pipego/web:latest .
+docker run ghcr.io/pipego/web:latest
 ```
 
 
