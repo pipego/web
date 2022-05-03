@@ -23,8 +23,9 @@
 ## Run
 
 ```bash
-yarn && yarn run build
-yarn run dev
+yarn
+yarn build
+yarn dev
 ```
 
 
