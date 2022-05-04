@@ -4,7 +4,6 @@
 [![codecov](https://codecov.io/gh/pipego/web/branch/main/graph/badge.svg?token=FS77A6KD37)](https://codecov.io/gh/pipego/web)
 [![License](https://img.shields.io/github/license/pipego/web.svg)](https://github.com/pipego/web/blob/main/LICENSE)
 [![Tag](https://img.shields.io/github/tag/pipego/web.svg)](https://github.com/pipego/web/tags)
-[![Gitter chat](https://badges.gitter.im/craftslab/pipego.png)](https://gitter.im/craftslab/pipego)
 
 
 
@@ -33,7 +32,8 @@ yarn dev
 ## Docker
 
 ```bash
-yarn && yarn run build
+yarn
+yarn build
 docker build --no-cache -f Dockerfile -t ghcr.io/pipego/web:latest .
 docker run ghcr.io/pipego/web:latest
 ```
